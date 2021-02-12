@@ -26,6 +26,7 @@ import com.springcarrito.service.UserPersonService;
 @ComponentScan(basePackages = "com.springcarrito.controller")
 public class WebAppConfig implements ApplicationContextAware{
 
+	
 	private ApplicationContext applicationContext;
 	
 	@Override
